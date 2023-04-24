@@ -11,8 +11,8 @@
 .LatexTitle{
     font-family: CMR;
     font-size: 40px;
-    padding-top: 40vh;
-    text-align: center;
+    padding-top: 2vh;
+    text-align: right;
     margin-bottom: 20px;
 }
 
@@ -61,7 +61,7 @@
 .Section{
     font-family: CMB;
     font-size: 33px;
-    text-align: Left;
+    text-align: center;
     margin-top: 13px;
     margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@
 .BodyText{
     font-family: CMR;
     font-size: 23px;
-    text-align: Left;
+    text-align: center;
     margin-top: 13px;
     margin-bottom: 45px;
     line-height: 125%;
@@ -88,11 +88,12 @@
 .BodyText2Col{
     font-family: CMR;
     font-size: 23px;
-    text-align: Left;
+    text-align: left;
     margin-top: 13px;
     margin-bottom: 45px;
     line-height: 125%;
     column-count: 2;
+    padding-left: 145px;
 }
 
 .BodyText3Col{
@@ -103,6 +104,7 @@
     margin-bottom: 45px;
     line-height: 125%;
     column-count: 3;
+    padding-left: 175px;
 }
 
 .Justified{
@@ -153,4 +155,12 @@
 
 .HUGE{
     font-size: 33px;
+}
+
+.BodyText Center{
+    text-align: center
+}
+
+.Form{
+    text-align: center;
 }
