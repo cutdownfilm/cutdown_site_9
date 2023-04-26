@@ -48,8 +48,11 @@
 }
 
 .Margins{
-    padding-left: 21%;
-    width: 58%;
+    padding-left: 18%;
+    /* padding-right: 15vh;  */
+    width: 60%;
+    /* margin-left: 40pt;
+    margin-right: 50pt; */
 }
 
 .AbstractMargins{
@@ -115,7 +118,7 @@
 .footerSize{
     height: 30vh;
     width: 100%;
-    background-color: black;
+    background-color: rgb(60, 59, 59);
 }
 
 .tiny{
@@ -128,6 +131,7 @@
 
 .footnotesize{
     font-size: 13px;
+    color: antiquewhite;
 }
 
 .small{
@@ -163,7 +167,8 @@
 }
 
 .Form{
-    text-align: center;
+    /* text-align: center; */
+    overflow="hidden"
 }
 
 .embed-container { 
